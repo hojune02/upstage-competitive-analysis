@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 1,
+    "latency_seconds": 5.543654583991156,
+    "usage": {
+      "input_tokens": 3604,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 354,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3958
+    },
+    "estimated_cost_usd": 0.004296,
+    "output": "Name of patient: Rogers, Pamela\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: Chest pain\nDescription: Abrupt onset of dull, aching chest pain for the last week, beginning in the left parasternal area and radiating to the neck. First episode occurred while working in the garden after about 45 minutes of exertion and fatigue, lasted 5 to 10 minutes, and resolved with rest inside in a cool area. She has had 2 additional similar episodes, including one while walking her dog that lasted 15 minutes and resolved with rest, and one that woke her from sleep and lasted 30 minutes, prompting her Emergency Department visit. Pain is associated with shortness of breath, but not with sweating, nausea, vomiting, dizziness, palpitations, movement, food, GERD symptoms, or palpable tenderness.\n\nSymptom 2: Shortness of breath / dyspnea\nDescription: Occurs with the chest pain episodes. She reports no other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea.\n\nSymptom 3: Epigastric pain / burning\nDescription: Complains of epigastric pain with a burning quality approximately twice a month, primarily at night.\n\nSymptom 4: Lower back pain\nDescription: Aching lower back pain approximately once every week after working in her garden, usually relieved with Tylenol.\n\nHeading: Severity Report\n\nSeverity report: High\n\nReason: The chest pain is recurrent, exertional, and now occurring at rest and awakening her from sleep, which is concerning for unstable angina / possible ischemic heart disease. This severity is inferred from the clinical picture in the document rather than explicitly stated."
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 2,
+    "latency_seconds": 7.532138082999154,
+    "usage": {
+      "input_tokens": 3604,
+      "input_tokens_details": {
+        "cached_tokens": 3328
+      },
+      "output_tokens": 579,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 4183
+    },
+    "estimated_cost_usd": 0.0053085,
+    "output": "Name of patient: Pamela Rogers\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: Chest pain / chest pains\nDescription: Abrupt onset of dull, aching chest pain in the left parasternal area radiating to the neck. First episode occurred while working in the garden after about 45 minutes of exertion and fatigue, lasted 5 to 10 minutes, and resolved with rest in a cool area. She had two additional similar episodes: one 3 days prior while walking her dog lasting 15 minutes and resolving with rest, and one on the evening of presentation that awakened her from sleep and lasted 30 minutes, prompting the emergency department visit. No relief measures were tried other than rest. No associated sweating, nausea, vomiting, dizziness, palpitations, food association, movement-related change, or palpable tenderness.\n\nSymptom 2: Dyspnea / shortness of breath\nDescription: Occurred with the chest pain episodes. She also denied other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea.\n\nSymptom 3: Epigastric pain / epigastric discomfort\nDescription: Burning epigastric pain occurring approximately twice a month, primarily at night.\n\nSymptom 4: Lower back pain / lumbosacral back pain\nDescription: Aching lower back pain occurring about once every week after working in her garden, usually relieved with Tylenol.\n\nSymptom 5: Hypertension\nDescription: History of hypertension diagnosed 3 years earlier; blood pressure on exam was 168/98. She previously stopped an unknown medication after 6 months because of drowsiness.\n\nSymptom 6: Systolic murmur\nDescription: Grade 2/6 systolic decrescendo murmur best heard at the second right intercostal space and radiating to the neck.\n\nSymptom 7: Crackles in lung bases\nDescription: Crackles were heard in the lung bases bilaterally on chest exam.\n\nSymptom 8: Third heart sound\nDescription: A third heart sound was heard at the apex.\n\nSymptom 9: Abdominal bruit\nDescription: Bruit heard in the right paraumbilical area.\n\nSymptom 10: Cystic changes of breasts\nDescription: Cystic changes noted in both breasts without masses or nipple discharge.\n\nHeading: Severity Report\n\nSeverity report: #High\n\nReason: The patient has exertional and rest chest pain with radiation, associated shortness of breath, and progression in frequency/duration, which is concerning for unstable angina or myocardial ischemia. The report also documents hypertension, abnormal cardiac and lung exam findings, and a strong family history of premature coronary artery disease, all of which increase concern. Severity is inferred from the pattern of symptoms and the need for emergency evaluation."
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 3,
+    "latency_seconds": 5.739901750013814,
+    "usage": {
+      "input_tokens": 3604,
+      "input_tokens_details": {
+        "cached_tokens": 3328
+      },
+      "output_tokens": 362,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3966
+    },
+    "estimated_cost_usd": 0.004332,
+    "output": "Name of patient: Pamela Rogers\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: chest pain\nDescription: Abrupt onset one week prior to admission, dull and aching in character, starting in the left parasternal area and radiating to the neck. It occurred first during gardening after about 45 minutes of exertion and fatigue, lasted 5 to 10 minutes, and improved with rest in a cool area. She had two additional similar episodes: one 3 days prior while walking her dog lasting 15 minutes and resolving with rest, and another on the evening of presentation that awakened her from sleep and lasted 30 minutes. Associated with shortness of breath during episodes; no sweating, nausea, vomiting, dizziness, palpitations, movement-related change, food association, GERD symptoms, or palpable pain.\n\nSymptom 2: shortness of breath / dyspnea\nDescription: Occurs with the chest pain episodes. She reports no other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea.\n\nSymptom 3: epigastric pain / epigastric discomfort\nDescription: Burning epigastric pain occurring approximately twice a month, mainly at night.\n\nSymptom 4: lower back pain / lumbosacral back pain\nDescription: Aching lower back pain occurring about once every week after working in her garden, usually relieved with Tylenol.\n\nHeading: Severity Report\n\nSeverity report: #High\n\nReason: The severity is inferred as high because the patient has recurrent exertional chest pain with radiation to the neck, associated shortness of breath, progression to an episode at rest that awakened her from sleep, and the report identifies this as likely unstable angina with hospitalization indicated."
+  }
+]

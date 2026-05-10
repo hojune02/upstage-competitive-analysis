@@ -1,0 +1,71 @@
+[
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 1,
+    "latency_seconds": 20.625874958001077,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 13556,
+      "output_tokens": 856,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.053508,
+    "output": "Name of patient: Rogers, Pamela\n\n---\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: Chest Pain\nDescription: Dull and aching in character, beginning in the left para-sternal area and radiating up to the neck. First episode occurred during physical exertion (gardening) approximately one week prior to admission, lasting 5 to 10 minutes and resolving with rest. Two additional episodes followed: one lasting 15 minutes while walking the dog (resolved with rest), and one episode that awoke the patient from sleep lasting 30 minutes, prompting the Emergency Department visit. Pain is increasing in frequency and duration, with no relief attempted other than rest. No association with movement, food, or palpation. The pattern is consistent with unstable angina.\n\nSymptom 2: Dyspnea / Shortness of Breath\nDescription: The patient becomes short of breath during chest pain episodes. No other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea is reported outside of these episodes. Physical examination findings of a third heart sound and bilateral pulmonary crackles at the lung bases suggest possible left ventricular dysfunction and congestive heart failure secondary to myocardial ischemia.\n\nSymptom 3: Epigastric Pain\nDescription: Burning in quality, occurring approximately twice a month, noticed primarily at night. The patient has a prior history of peptic ulcer disease and currently uses OTC ibuprofen (Advil) on a near-daily basis, which may be a contributing factor.\n\nSymptom 4: Lower Back Pain\nDescription: Aching in quality, occurring approximately once every week, typically after working in the garden. Usually relieved with Tylenol (acetaminophen). No other arthralgias, muscle aches, or pains reported.\n\nSymptom 5: Hypertension\nDescription: Diagnosed with hypertension in 1998 (approximately 3 years prior to admission). Previously placed on an unknown antihypertensive medication but stopped after 6 months due to drowsiness. Blood pressure on admission measured at 168/98, indicating currently uncontrolled hypertension. The combination of recent-onset hypertension and an abdominal bruit raises concern for a secondary cause, specifically renovascular hypertension due to atherosclerotic disease of the renal artery.\n\nSymptom 6: Cystic Changes of the Breasts\nDescription: Cystic changes noted bilaterally on physical examination. No masses or nipple discharge observed. Consistent with fibrocystic breast disease.\n\n---\n\nHeading: Severity Report\n\nSeverity Report: #High\nReason: The severity is assessed as High based on multiple concerning clinical findings documented in the report. The patient's chest pain has progressively worsened over one week — increasing in frequency, duration, and now occurring at rest (nocturnal episode lasting 30 minutes), which is explicitly identified in the document as fitting the presentation of unstable angina, for which hospitalization is indicated. Additional high-risk findings include a blood pressure of 168/98 (uncontrolled hypertension), shortness of breath accompanied by a third heart sound and bilateral pulmonary crackles suggestive of left ventricular dysfunction and possible congestive heart failure, a systolic murmur radiating to the neck raising concern for aortic stenosis, and an abdominal bruit suggesting possible renovascular disease. The patient also carries multiple cardiovascular risk factors including family history of premature coronary artery disease (CAD), early surgical menopause without hormone replacement therapy, and uncontrolled hypertension. The clinical assessment in the document explicitly recommends hospital admission and urgent cardiac catheterization, further confirming the high severity of this case."
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 2,
+    "latency_seconds": 18.676041707993136,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 13556,
+      "output_tokens": 749,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.051903000000000005,
+    "output": "Name of patient: Rogers, Pamela\n\n---\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: Chest Pain\nDescription: Dull and aching in character, beginning in the left para-sternal area and radiating up to the neck. First episode occurred one week prior to admission during physical exertion (gardening for ~45 minutes). The patient has had 3 total episodes: the first lasting 5–10 minutes (resolved with rest), the second lasting 15 minutes while walking her dog (resolved with rest), and the third lasting 30 minutes and awakening her from sleep, prompting her Emergency Department visit. No specific relief measures were attempted other than rest. Pain is not associated with movement, food, or palpable tenderness. No GERD symptoms were reported in connection with the chest pain.\n\nSymptom 2: Dyspnea / Shortness of Breath\nDescription: The patient becomes short of breath during episodes of chest pain. She denies other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea outside of these episodes. Physical examination findings of a third heart sound and bilateral pulmonary crackles at the lung bases suggest possible left ventricular dysfunction and congestive heart failure secondary to myocardial ischemia.\n\nSymptom 3: Epigastric Pain\nDescription: Burning in quality, occurring approximately twice a month, noticed primarily at night. Reported in the gastrointestinal review of systems. Patient has a prior history of peptic ulcer disease (diagnosed 1990, resolved after three months on cimetidine) and currently uses OTC ibuprofen (Advil) occasionally for headaches, which may be a contributing factor.\n\nSymptom 4: Lower Back Pain\nDescription: Aching in quality, occurring approximately once every week, typically after working in the garden. Usually relieved with Tylenol (acetaminophen). No other arthralgias, muscle aches, or pains are reported.\n\n---\n\nHeading: Severity Report\n\nSeverity Report: #High\nReason: The severity is assessed as High based on multiple clinically significant indicators present in the document. The chest pain has escalated in frequency, duration, and circumstance over one week — progressing from exertion-induced episodes to an episode occurring at rest during sleep (lasting 30 minutes), which is explicitly identified in the assessment as consistent with unstable angina, for which hospitalization is stated to be indicated. The patient presents with multiple cardiovascular risk factors including a family history of premature coronary artery disease (father deceased at 54 from heart attack), hypertension, early surgical menopause (TAH/BSO at age 50), and an unknown cholesterol level. Physical examination findings further elevate concern, including elevated blood pressure (168/98), bilateral pulmonary crackles, a third heart sound (suggesting left ventricular dysfunction), a systolic ejection murmur radiating to the neck (raising the possibility of aortic stenosis), and an abdominal bruit (raising concern for renovascular hypertension). The clinical plan involves immediate hospital admission to a telemetry floor, initiation of antiplatelet therapy and nitrates, and scheduling of cardiac catheterization, all of which underscore the high-acuity nature of this presentation."
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "UMNwriteup.pdf",
+    "workflow": "medical",
+    "run": 3,
+    "latency_seconds": 15.95064533301047,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 13556,
+      "output_tokens": 712,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.051348000000000005,
+    "output": "Name of patient: Rogers, Pamela\n\n---\n\nHeading: Symptoms and Descriptions\n\nSymptom 1: Chest Pain\nDescription: Dull and aching in character, beginning in the left para-sternal area and radiating up to the neck. First episode occurred during physical exertion (gardening) and lasted approximately 5–10 minutes, resolving with rest. Two additional episodes followed: one lasting 15 minutes while walking, resolving with rest, and one lasting 30 minutes that awakened the patient from sleep, prompting the Emergency Department visit. No specific relief measures were attempted other than rest. No association with movement, food, or palpable tenderness. Pain episodes appear to be increasing in frequency and duration, with the most recent episode occurring at rest, consistent with unstable angina.\n\nSymptom 2: Dyspnea / Shortness of Breath\nDescription: Shortness of breath accompanies episodes of chest pain. No other exertional dyspnea, orthopnea, or paroxysmal nocturnal dyspnea reported outside of these episodes. Physical examination findings of a third heart sound and bilateral pulmonary crackles suggest possible left ventricular dysfunction and congestive heart failure secondary to myocardial ischemia.\n\nSymptom 3: Epigastric Pain\nDescription: Burning in quality, occurring approximately twice a month, noticed primarily at night. Patient has a prior history of peptic ulcer disease (diagnosed 1990, resolved after three months on cimetidine) and currently uses OTC ibuprofen (Advil) on a near-daily basis, which may be a contributing factor.\n\nSymptom 4: Lower Back Pain\nDescription: Aching in quality, occurring approximately once every week, typically after working in the garden. Usually relieved with Tylenol (acetaminophen). No other arthralgias, muscle aches, or pains reported.\n\n---\n\nHeading: Severity Report\n\nSeverity Report: #High\nReason: The overall severity is assessed as High based on the following findings from the document:\n1. The chest pain episodes are increasing in frequency and duration, with the most recent episode occurring at rest and lasting 30 minutes — a pattern explicitly described in the document as consistent with unstable angina, for which hospitalization is indicated.\n2. The patient presents with multiple cardiovascular risk factors: family history of premature coronary artery disease (father deceased at 54 from heart attack), hypertension, early surgical menopause (TAH/BSO), and an unknown cholesterol level.\n3. Physical examination findings — including bilateral pulmonary crackles, a third heart sound, a systolic ejection murmur radiating to the neck, and an abdominal bruit — suggest possible congestive heart failure, aortic stenosis, and renovascular hypertension, all of which are serious conditions requiring urgent evaluation.\n4. The dyspnea associated with chest pain further supports possible active cardiac ischemia with left ventricular dysfunction.\n5. The document explicitly states that cardiac catheterization and telemetry monitoring are indicated, reinforcing the high-severity nature of the presentation."
+  }
+]

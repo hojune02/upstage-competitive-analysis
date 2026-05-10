@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 1,
+    "latency_seconds": 5.8004162079887465,
+    "usage": {
+      "input_tokens": 3593,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3623
+    },
+    "estimated_cost_usd": 0.0028297500000000002,
+    "output": "Item 1: PICK UP CHARGE\nItem 1 price: $242.45\n\nTotal price: $242.45"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 2,
+    "latency_seconds": 4.322580459003802,
+    "usage": {
+      "input_tokens": 3593,
+      "input_tokens_details": {
+        "cached_tokens": 2816
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3623
+    },
+    "estimated_cost_usd": 0.0028297500000000002,
+    "output": "Item 1: PICK UP CHARGE  \nItem 1 price: $242.45\n\nTotal price: $242.45"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 3,
+    "latency_seconds": 4.611792208001134,
+    "usage": {
+      "input_tokens": 3593,
+      "input_tokens_details": {
+        "cached_tokens": 2816
+      },
+      "output_tokens": 30,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3623
+    },
+    "estimated_cost_usd": 0.0028297500000000002,
+    "output": "Item 1: PICK UP CHARGE\nItem 1 price: $242.45\n\nTotal price: $242.45"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 1,
+    "latency_seconds": 3.265657249998185,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 883,
+      "output_tokens": 135,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.004673999999999999,
+    "output": "Item 1: Labour\nItem 1 price: $950.00\n\nItem 2: Nails and screws\nItem 2 price: $40.00\n\nItem 3: Paint and Plywood\nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles\nItem 4 price: $560.00\n\nItem 5: Freight\nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It\nItem 6 price: $228.00\n\nTotal price: $3,367.20"
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 2,
+    "latency_seconds": 3.55288383300649,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 883,
+      "output_tokens": 145,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.004824,
+    "output": "Here are the extracted items from the invoice:\n\nItem 1: Labour\nItem 1 price: $950.00\n\nItem 2: Nails and screws\nItem 2 price: $40.00\n\nItem 3: Paint and Plywood\nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles\nItem 4 price: $560.00\n\nItem 5: Freight\nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It\nItem 6 price: $228.00\n\nTotal price: $3,367.20"
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 3,
+    "latency_seconds": 3.642928583009052,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 883,
+      "output_tokens": 145,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.004824,
+    "output": "Here are the extracted items from the invoice:\n\nItem 1: Labour\nItem 1 price: $950.00\n\nItem 2: Nails and screws\nItem 2 price: $40.00\n\nItem 3: Paint and Plywood\nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles\nItem 4 price: $560.00\n\nItem 5: Freight\nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It\nItem 6 price: $228.00\n\nTotal price: $3,367.20"
+  }
+]

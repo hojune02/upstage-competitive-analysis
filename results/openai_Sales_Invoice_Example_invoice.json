@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 1,
+    "latency_seconds": 1.842519583995454,
+    "usage": {
+      "input_tokens": 784,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 905
+    },
+    "estimated_cost_usd": 0.0011324999999999998,
+    "output": "Item 1: Labour  \nItem 1 price: $950.00\n\nItem 2: Nails and screws  \nItem 2 price: $40.00\n\nItem 3: Paint and Plywood  \nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles  \nItem 4 price: $560.00\n\nItem 5: Freight  \nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It  \nItem 6 price: $228.00\n\nTotal price: $2928.00"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 2,
+    "latency_seconds": 1.5963196670054458,
+    "usage": {
+      "input_tokens": 784,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 905
+    },
+    "estimated_cost_usd": 0.0011324999999999998,
+    "output": "Item 1: Labour  \nItem 1 price: $950.00\n\nItem 2: Nails and screws  \nItem 2 price: $40.00\n\nItem 3: Paint and Plywood  \nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles  \nItem 4 price: $560.00\n\nItem 5: Freight  \nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It  \nItem 6 price: $228.00\n\nTotal price: $3367.20"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "Sales_Invoice_Example.png",
+    "workflow": "invoice",
+    "run": 3,
+    "latency_seconds": 1.9117152919934597,
+    "usage": {
+      "input_tokens": 784,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 121,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 905
+    },
+    "estimated_cost_usd": 0.0011324999999999998,
+    "output": "Item 1: Labour  \nItem 1 price: $950.00\n\nItem 2: Nails and screws  \nItem 2 price: $40.00\n\nItem 3: Paint and Plywood  \nItem 3 price: $1000.00\n\nItem 4: Imported wall tiles  \nItem 4 price: $560.00\n\nItem 5: Freight  \nItem 5 price: $150.00\n\nItem 6: Sub-contractor : Tile-It  \nItem 6 price: $228.00\n\nTotal price: $2928.00"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 1,
+    "latency_seconds": 2.7269901250110706,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 5197,
+      "output_tokens": 48,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.016311,
+    "output": "Based on the invoice provided, there is only one line item with a price:\n\nItem 1: PICK UP CHARGE\nItem 1 price: $242.45\n\nTotal price: $242.45"
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 2,
+    "latency_seconds": 2.9887730420014123,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 5197,
+      "output_tokens": 48,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.016311,
+    "output": "Based on the invoice provided, there is only one line item with a price:\n\nItem 1: PICK UP CHARGE\nItem 1 price: $242.45\n\nTotal price: $242.45"
+  },
+  {
+    "tool": "Claude API",
+    "model": "claude-sonnet-4-6",
+    "document": "KWE_sample.pdf",
+    "workflow": "invoice",
+    "run": 3,
+    "latency_seconds": 3.4720483330020215,
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "inference_geo": "global",
+      "input_tokens": 5197,
+      "output_tokens": 48,
+      "server_tool_use": null,
+      "service_tier": "standard"
+    },
+    "estimated_cost_usd": 0.016311,
+    "output": "Based on the invoice provided, there is only one line item with a price:\n\nItem 1: PICK UP CHARGE\nItem 1 price: $242.45\n\nTotal price: $242.45"
+  }
+]

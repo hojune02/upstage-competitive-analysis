@@ -1,0 +1,65 @@
+[
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "sales-invoice.5RD0cGLR.png",
+    "workflow": "invoice",
+    "run": 1,
+    "latency_seconds": 2.323100167006487,
+    "usage": {
+      "input_tokens": 3114,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 134,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3248
+    },
+    "estimated_cost_usd": 0.0029385,
+    "output": "Item 1: ProBook 15 Laptop - 16GB RAM, 512GB SSD  \nItem 1 price: $3,749.97\n\nItem 2: 27\" 4K UHD Monitor  \nItem 2 price: $1,349.97\n\nItem 3: Mechanical Keyboard - Cherry MX Blue  \nItem 3 price: $449.95\n\nItem 4: Ergonomic Wireless Mouse  \nItem 4 price: $174.95\n\nItem 5: Office 365 Business License (1 year)  \nItem 5 price: $749.95\n\nTotal price: $6,474.79"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "sales-invoice.5RD0cGLR.png",
+    "workflow": "invoice",
+    "run": 2,
+    "latency_seconds": 1.7599782909965143,
+    "usage": {
+      "input_tokens": 3114,
+      "input_tokens_details": {
+        "cached_tokens": 2304
+      },
+      "output_tokens": 134,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3248
+    },
+    "estimated_cost_usd": 0.0029385,
+    "output": "Item 1: ProBook 15 Laptop - 16GB RAM, 512GB SSD  \nItem 1 price: $3,749.97\n\nItem 2: 27\" 4K UHD Monitor  \nItem 2 price: $1,349.97\n\nItem 3: Mechanical Keyboard - Cherry MX Blue  \nItem 3 price: $449.95\n\nItem 4: Ergonomic Wireless Mouse  \nItem 4 price: $174.95\n\nItem 5: Office 365 Business License (1 year)  \nItem 5 price: $749.95\n\nTotal price: $7,083.96"
+  },
+  {
+    "tool": "OpenAI API",
+    "model": "gpt-5.4-mini",
+    "document": "sales-invoice.5RD0cGLR.png",
+    "workflow": "invoice",
+    "run": 3,
+    "latency_seconds": 1.9348135000036564,
+    "usage": {
+      "input_tokens": 3114,
+      "input_tokens_details": {
+        "cached_tokens": 2304
+      },
+      "output_tokens": 131,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 3245
+    },
+    "estimated_cost_usd": 0.002925,
+    "output": "Item 1: ProBook 15 Laptop - 16GB RAM, 512GB SSD  \nItem 1 price: $3749.97\n\nItem 2: 27\" 4K UHD Monitor  \nItem 2 price: $1349.97\n\nItem 3: Mechanical Keyboard - Cherry MX Blue  \nItem 3 price: $449.95\n\nItem 4: Ergonomic Wireless Mouse  \nItem 4 price: $174.95\n\nItem 5: Office 365 Business License (1 year)  \nItem 5 price: $749.95\n\nTotal price: $6474.79"
+  }
+]
